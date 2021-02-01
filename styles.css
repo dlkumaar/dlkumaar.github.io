@@ -250,4 +250,94 @@ header {
 
 .experience__details .job {
   margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/*** Education details ***/
+
+.education {
+  background: #f6f6f6;
+  padding-top: 60px;
+}
+
+.education__info.box {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 70px 2fr 3fr;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-top: 1px solid #dfdfdf;
+  padding-top: 30px;
+}
+
+.education__info img {
+  height: 70px;
+  margin: 0 auto;
+}
+
+.education__info.uni-name {
+  margin: 0 20px;
+}
+
+.education__info.uni-name h2 {
+  font-size: 1.125rem;
+}
+
+.education__info.uni-name h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+/*** Portfolio ***/
+
+.portfolio {
+  margin-left: 250px;
+  padding: 70px;
+}
+
+.porfolio__title small {
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.portfolio__showcase {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.portfolio__showcase .card1 {
+  margin-top: 0.875em;
+}
+
+/*** contact ***/
+
+.contact {
+  margin-left: 250px;
+  padding: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7%;
+  align-items: center;
+}
+
+.contact__info {
+  padding: ;
+}
+
+.full-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #dfdfdf;
+  margin: 50px 0 0 0;
+  border: none;
+}
+
+.contact__info__me.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 40px 0;
 }
