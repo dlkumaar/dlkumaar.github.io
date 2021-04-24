@@ -40,11 +40,13 @@ ul {
 
 body {
 	display: flex;
-	height: calc(100vh - 50px);
+	max-height: 100vh;
 }
 
 main {
 	overflow-y: scroll;
+	height: calc(100vh - 50px);
+	max-height: 100vh;
 }
 
 /*** Mobile Navigation ***/
