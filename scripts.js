@@ -3,6 +3,7 @@
 // mobile menu toggle
 const menuToggle = document.querySelector('.mobile-nav');
 const mobileNavbar = document.querySelector('.navbar');
+const navLinks = document.querySelectorAll('.nav_links li > a');
 
 let openMenu = false;
 
@@ -13,6 +14,14 @@ const menuOpenClose = (e) => {
 		mobileNavbar.classList.toggle('mobile');
 	}
 };
+
+// menu close on click
+navLinks.forEach((link) =>
+	link.addEventListener('click', () => {
+		menuToggle.classList.toggle('open');
+		mobileNavbar.classList.toggle('mobile');
+	})
+);
 
 menuToggle.addEventListener('click', menuOpenClose);
 
