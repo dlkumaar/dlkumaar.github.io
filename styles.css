@@ -40,12 +40,13 @@ ul {
 
 body {
 	display: flex;
+
 	max-height: 100vh;
 }
 
 main {
 	overflow-y: scroll;
-	height: calc(100vh - 50px);
+
 	max-height: 100vh;
 }
 
@@ -204,7 +205,7 @@ main {
 	line-height: 1.75rem;
 }
 
-.about__professional-profile button:hover {
+.about__professional-profile button:hover a {
 	border: 2px solid #ffb400;
 	background-color: #ffb400;
 	color: #fff;
